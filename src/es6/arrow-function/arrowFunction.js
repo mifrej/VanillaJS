@@ -6,7 +6,7 @@ export default () => {
   const win = winners.map((winner, idx) => ({
     name: winner,
     race,
-    place: idx + 1
+    place: idx + 1,
   }));
   console.table(win);
 

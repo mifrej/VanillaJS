@@ -1,16 +1,11 @@
 import fucntionCurrying from './src/vanillaJS/currying';
-import let_const from './src/es6/let_const';
-import arrowFunction from './src/es6/arrowFunction';
+import letConst from './src/es6/let_const';
+import arrowFunction from './src/es6/arrow-function/arrowFunction';
+import sum1or2arguments from './src/vanillaJS/sum1or2arguments';
+import animationBoxThis from './src/es6/arrow-function/animationBoxThis';
 
-// VanillaJS - write a "sum" function which can take one or two arguments
-
-const sum = (num1, num2) => {
-  return num2 ? num1 + num2 : num2 => num1 + num2;
-};
-
-console.log(sum(2, 3));
-console.log(sum(2)(3));
-
+// sum1or2arguments();
 // fucntionCurrying();
-// let_const();
-arrowFunction();
+// letConst();
+// arrowFunction();
+animationBoxThis();
