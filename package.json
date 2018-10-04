@@ -1,5 +1,6 @@
 {
   "name": "vanillajs",
+  "private": true,
   "version": "1.0.0",
   "description": "VanillaJS and ES6 exercises",
   "main": "index.html",
@@ -7,8 +8,16 @@
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
-  "dependencies": {},
+  "dependencies": {
+    "prettier": "^1.14.3"
+  },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
     "parcel-bundler": "^1.6.1"
   },
   "keywords": []
