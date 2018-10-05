@@ -7,6 +7,8 @@ import defaultArguments from './src/es6/arrow-function/defaultArguments';
 import notUseArrowFunc from './src/es6/arrow-function/notUseArrowFunc';
 import arrowFuncExercises from './src/es6/arrow-function/arrowFuncExercises';
 import nestedTemplateStrings from './src/es6/template-strings/nested';
+import ternaryOperatorFragments from './src/es6/template-strings/ternaryOperatorFragments';
+import taggedTemplate from './src/es6/template-strings/taggedTemplates';
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -16,4 +18,6 @@ import nestedTemplateStrings from './src/es6/template-strings/nested';
 // defaultArguments();
 // notUseArrowFunc();
 // arrowFuncExercises();
-nestedTemplateStrings();
+// nestedTemplateStrings();
+// ternaryOperatorFragments();
+taggedTemplate();
