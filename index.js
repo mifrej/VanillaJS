@@ -6,6 +6,7 @@ import animationBoxThis from './src/es6/arrow-function/animationBoxThis';
 import defaultArguments from './src/es6/arrow-function/defaultArguments';
 import notUseArrowFunc from './src/es6/arrow-function/notUseArrowFunc';
 import arrowFuncExercises from './src/es6/arrow-function/arrowFuncExercises';
+import nestedTemplateStrings from './src/es6/template-strings/nested';
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -14,4 +15,5 @@ import arrowFuncExercises from './src/es6/arrow-function/arrowFuncExercises';
 // animationBoxThis();
 // defaultArguments();
 // notUseArrowFunc();
-arrowFuncExercises();
+// arrowFuncExercises();
+nestedTemplateStrings();
