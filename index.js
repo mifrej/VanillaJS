@@ -5,6 +5,7 @@ import sum1or2arguments from './src/vanillaJS/sum1or2arguments';
 import animationBoxThis from './src/es6/arrow-function/animationBoxThis';
 import defaultArguments from './src/es6/arrow-function/defaultArguments';
 import notUseArrowFunc from './src/es6/arrow-function/notUseArrowFunc';
+import arrowFuncExercises from './src/es6/arrow-function/arrowFuncExercises';
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -12,4 +13,5 @@ import notUseArrowFunc from './src/es6/arrow-function/notUseArrowFunc';
 // arrowFunction();
 // animationBoxThis();
 // defaultArguments();
-notUseArrowFunc();
+// notUseArrowFunc();
+arrowFuncExercises();
