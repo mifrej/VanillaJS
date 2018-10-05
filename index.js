@@ -4,10 +4,12 @@ import arrowFunction from './src/es6/arrow-function/arrowFunction';
 import sum1or2arguments from './src/vanillaJS/sum1or2arguments';
 import animationBoxThis from './src/es6/arrow-function/animationBoxThis';
 import defaultArguments from './src/es6/arrow-function/defaultArguments';
+import notUseArrowFunc from './src/es6/arrow-function/notUseArrowFunc';
 
 // sum1or2arguments();
 // fucntionCurrying();
 // letConst();
 // arrowFunction();
 // animationBoxThis();
-defaultArguments();
+// defaultArguments();
+notUseArrowFunc();
