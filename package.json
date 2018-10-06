@@ -9,6 +9,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
+    "dompurify": "^1.0.8",
     "prettier": "^1.14.3"
   },
   "devDependencies": {

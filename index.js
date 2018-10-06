@@ -11,6 +11,7 @@ import ternaryOperatorFragments from './src/es6/template-strings/ternaryOperator
 import taggedTemplate from './src/es6/template-strings/taggedTemplates';
 
 import abbrSentence from './src/es6/template-strings/abbrSentence';
+import saniztizeUserInput from './src/es6/template-strings/sanitizeUserInput';
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -23,4 +24,5 @@ import abbrSentence from './src/es6/template-strings/abbrSentence';
 // nestedTemplateStrings();
 // ternaryOperatorFragments();
 // taggedTemplate();
-abbrSentence();
+// abbrSentence();
+saniztizeUserInput();
