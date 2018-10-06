@@ -10,6 +10,8 @@ import nestedTemplateStrings from './src/es6/template-strings/nested';
 import ternaryOperatorFragments from './src/es6/template-strings/ternaryOperatorFragments';
 import taggedTemplate from './src/es6/template-strings/taggedTemplates';
 
+import abbrSentence from './src/es6/template-strings/abbrSentence';
+
 // sum1or2arguments();
 // fucntionCurrying();
 // letConst();
@@ -20,4 +22,5 @@ import taggedTemplate from './src/es6/template-strings/taggedTemplates';
 // arrowFuncExercises();
 // nestedTemplateStrings();
 // ternaryOperatorFragments();
-taggedTemplate();
+// taggedTemplate();
+abbrSentence();
