@@ -15,6 +15,7 @@ import saniztizeUserInput from './src/es6/template-strings/sanitizeUserInput';
 import newStringMethods from './src/es6/stringMethods';
 import destructuringBasics from './src/es6/destructuring/basic';
 import arraysDestructuring from './src/es6/destructuring/arrays';
+import destructuringFunctions from './src/es6/destructuring/functions';
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -30,4 +31,5 @@ import arraysDestructuring from './src/es6/destructuring/arrays';
 // abbrSentence();
 // saniztizeUserInput();
 // newStringMethods();
-arraysDestructuring();
+// arraysDestructuring();
+destructuringFunctions();
