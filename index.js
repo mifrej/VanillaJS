@@ -13,6 +13,7 @@ import taggedTemplate from './src/es6/template-strings/taggedTemplates';
 import abbrSentence from './src/es6/template-strings/abbrSentence';
 import saniztizeUserInput from './src/es6/template-strings/sanitizeUserInput';
 import newStringMethods from './src/es6/stringMethods';
+import destructuringBasics from './src/es6/destructuring/basic';
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -27,4 +28,5 @@ import newStringMethods from './src/es6/stringMethods';
 // taggedTemplate();
 // abbrSentence();
 // saniztizeUserInput();
-newStringMethods();
+// newStringMethods();
+destructuringBasics();
