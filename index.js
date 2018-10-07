@@ -12,6 +12,7 @@ import taggedTemplate from './src/es6/template-strings/taggedTemplates';
 
 import abbrSentence from './src/es6/template-strings/abbrSentence';
 import saniztizeUserInput from './src/es6/template-strings/sanitizeUserInput';
+import newStringMethods from './src/es6/stringMethods';
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -25,4 +26,5 @@ import saniztizeUserInput from './src/es6/template-strings/sanitizeUserInput';
 // ternaryOperatorFragments();
 // taggedTemplate();
 // abbrSentence();
-saniztizeUserInput();
+// saniztizeUserInput();
+newStringMethods();
