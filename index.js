@@ -14,6 +14,7 @@ import abbrSentence from './src/es6/template-strings/abbrSentence';
 import saniztizeUserInput from './src/es6/template-strings/sanitizeUserInput';
 import newStringMethods from './src/es6/stringMethods';
 import destructuringBasics from './src/es6/destructuring/basic';
+import arraysDestructuring from './src/es6/destructuring/arrays';
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -29,4 +30,4 @@ import destructuringBasics from './src/es6/destructuring/basic';
 // abbrSentence();
 // saniztizeUserInput();
 // newStringMethods();
-destructuringBasics();
+arraysDestructuring();
