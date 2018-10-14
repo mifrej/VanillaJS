@@ -17,6 +17,7 @@ import destructuringBasics from './src/es6/destructuring/basic';
 import arraysDestructuring from './src/es6/destructuring/arrays';
 import destructuringFunctions from './src/es6/destructuring/functions';
 import iterablesLooping from './src/es6/iterablesLooping';
+import newArrayMethods from './src/es6/newArrayMethods';
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -34,4 +35,5 @@ import iterablesLooping from './src/es6/iterablesLooping';
 // newStringMethods();
 // arraysDestructuring();
 //  destructuringFunctions();
-iterablesLooping();
+// iterablesLooping();
+newArrayMethods();
