@@ -21,6 +21,9 @@ import newArrayMethods from './src/es6/arrays/newArrayMethods';
 import findFindIndex from './src/es6/arrays/findFIndIndex';
 import someEvery from './src/es6/arrays/someEvery';
 import jumpingLetters from './src/es6/spread-and-rest/jumping-letters';
+import removeArrayElement from './src/es6/spread-and-rest/removeArrayElement';
+import spreadIntoFunction from './src/es6/spread-and-rest/spreadInFunction';
+import restParams from './src/es6/spread-and-rest/restParams'
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -42,4 +45,6 @@ import jumpingLetters from './src/es6/spread-and-rest/jumping-letters';
 // newArrayMethods();
 // findFindIndex();
 // someEvery();
-jumpingLetters();
+// removeArrayElement();
+// spreadIntoFunction();
+restParams();
