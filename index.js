@@ -23,7 +23,7 @@ import someEvery from './src/es6/arrays/someEvery';
 import jumpingLetters from './src/es6/spread-and-rest/jumping-letters';
 import removeArrayElement from './src/es6/spread-and-rest/removeArrayElement';
 import spreadIntoFunction from './src/es6/spread-and-rest/spreadInFunction';
-import restParams from './src/es6/spread-and-rest/restParams'
+import restParams from './src/es6/spread-and-rest/restParams';
 import objectLiterals from './src/es6/object-literals';
 import callback from './src/es6/callbacks/callback';
 
@@ -49,6 +49,6 @@ import callback from './src/es6/callbacks/callback';
 // someEvery();
 // removeArrayElement();
 // spreadIntoFunction();
-restParams();
+// restParams();
 // objectLiterals();
 callback();
