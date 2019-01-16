@@ -24,6 +24,7 @@ import jumpingLetters from './src/es6/spread-and-rest/jumping-letters';
 import removeArrayElement from './src/es6/spread-and-rest/removeArrayElement';
 import spreadIntoFunction from './src/es6/spread-and-rest/spreadInFunction';
 import restParams from './src/es6/spread-and-rest/restParams'
+import objectLiterals from './src/es6/object-literals';
 import callback from './src/es6/callbacks/callback';
 
 // sum1or2arguments();
@@ -49,4 +50,5 @@ import callback from './src/es6/callbacks/callback';
 // removeArrayElement();
 // spreadIntoFunction();
 restParams();
+// objectLiterals();
 callback();
