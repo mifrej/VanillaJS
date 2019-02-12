@@ -26,6 +26,7 @@ import spreadIntoFunction from './src/es6/spread-and-rest/spreadInFunction';
 import restParams from './src/es6/spread-and-rest/restParams';
 import objectLiterals from './src/es6/object-literals';
 import callback from './src/es6/callbacks/callback';
+import eventBubbling from './src/vanillaJS/event-bubbling/bubbling';
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -51,4 +52,5 @@ import callback from './src/es6/callbacks/callback';
 // spreadIntoFunction();
 // restParams();
 // objectLiterals();
-callback();
+// callback();
+eventBubbling();
