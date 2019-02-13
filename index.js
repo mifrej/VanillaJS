@@ -28,6 +28,7 @@ import objectLiterals from './src/es6/object-literals';
 import callback from './src/es6/callbacks/callback';
 import eventBubbling from './src/vanillaJS/event-bubbling/bubbling';
 import eventBubbling from './src/vanillaJS/event-bubbling';
+import bindCallApply from './src/vanillaJS/bind-call-apply';
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -55,3 +56,4 @@ import eventBubbling from './src/vanillaJS/event-bubbling';
 // objectLiterals();
 // callback();
 eventBubbling();
+bindCallApply();
