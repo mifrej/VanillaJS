@@ -27,6 +27,7 @@ import restParams from './src/es6/spread-and-rest/restParams';
 import objectLiterals from './src/es6/object-literals';
 import callback from './src/es6/callbacks/callback';
 import eventBubbling from './src/vanillaJS/event-bubbling/bubbling';
+import eventBubbling from './src/vanillaJS/event-bubbling';
 
 // sum1or2arguments();
 // fucntionCurrying();
