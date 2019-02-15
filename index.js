@@ -30,6 +30,7 @@ import addAsync from './src/es6/asyncronous/promise';
 import eventBubbling from './src/vanillaJS/event-bubbling';
 import bindCallApply from './src/vanillaJS/bind-call-apply';
 import prototypeChain from './src/vanillaJS/prototype-chain';
+import CheckForNotification from './src/vanillaJS/setInterval';
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -62,3 +63,4 @@ import prototypeChain from './src/vanillaJS/prototype-chain';
 // eventBubbling();
 // bindCallApply();
 // prototypeChain();
+const notifications = new CheckForNotification();
