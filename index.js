@@ -25,8 +25,8 @@ import removeArrayElement from './src/es6/spread-and-rest/removeArrayElement';
 import spreadIntoFunction from './src/es6/spread-and-rest/spreadInFunction';
 import restParams from './src/es6/spread-and-rest/restParams';
 import objectLiterals from './src/es6/object-literals';
-import callback from './src/es6/callbacks/callback';
-import eventBubbling from './src/vanillaJS/event-bubbling/bubbling';
+import callback from './src/es6/asyncronous/callback';
+import addAsync from './src/es6/asyncronous/promise';
 import eventBubbling from './src/vanillaJS/event-bubbling';
 import bindCallApply from './src/vanillaJS/bind-call-apply';
 import prototypeChain from './src/vanillaJS/prototype-chain';
@@ -56,6 +56,9 @@ import prototypeChain from './src/vanillaJS/prototype-chain';
 // restParams();
 // objectLiterals();
 // callback();
-eventBubbling();
-bindCallApply();
-prototypeChain();
+// addAsync( 4)
+//   .then((result) => { console.log(result); })
+//   .catch((error) => { console.log(error); });
+// eventBubbling();
+// bindCallApply();
+// prototypeChain();
