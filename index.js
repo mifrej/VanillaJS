@@ -33,6 +33,7 @@ import prototypeChain from './src/vanillaJS/prototype-chain';
 import runner from './src/es6/assync-await/runner';
 import promise from './src/es6/promises/promise';
 import async from './src/es6/assync-await/async';
+import promiseSerialParallel from './src/es6/assync-await/parallel-serial-execution';
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -66,4 +67,5 @@ import async from './src/es6/assync-await/async';
 // bindCallApply();
 // prototypeChain();
 // runner();
-async();
+// async();
+promiseSerialParallel();
