@@ -30,6 +30,9 @@ import addAsync from './src/es6/asyncronous/promise';
 import eventBubbling from './src/vanillaJS/event-bubbling';
 import bindCallApply from './src/vanillaJS/bind-call-apply';
 import prototypeChain from './src/vanillaJS/prototype-chain';
+import runner from './src/es6/assync-await/runner';
+import promise from './src/es6/promises/promise';
+import async from './src/es6/assync-await/async';
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -62,3 +65,5 @@ import prototypeChain from './src/vanillaJS/prototype-chain';
 // eventBubbling();
 // bindCallApply();
 // prototypeChain();
+// runner();
+async();
