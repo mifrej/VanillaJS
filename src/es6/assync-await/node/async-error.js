@@ -1,5 +1,17 @@
 const fetch = require('node-fetch');
 
+function showGithubUSerPromise(handle) {
+  const url = `https://api.github.com/users/${handle}`;
+  return new Promise((resolve, reject) => {
+    const res = fetch(url).then(result => result.json());
+    if (res.status === 200) {
+      resolve(res);
+    } else {
+      reject(Error(res.message));
+    }
+  });
+}
+
 async function showGithubUser(handle) {
   const url = `https://api.github.com/users/${handle}`;
   const response = await fetch(url);
@@ -32,4 +44,11 @@ async function tryCatchShowGithubUser(handle) {
   }
 }
 
-tryCatchShowGithubUser('aqq-not-there');
+// tryCatchShowGithubUser('aqq-not-there');
+
+showGithubUSerPromise('hey-no-me')
+  .then((user) => {
+    console.log(user.name);
+    console.log(user.location);
+  })
+  .catch(err => console.log(`Error: ${err.message}`));
