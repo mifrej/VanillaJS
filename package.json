@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "dompurify": "^1.0.8",
+    "dotenv": "^7.0.0",
     "node-fetch": "^2.3.0",
     "prettier": "^1.14.3"
   },
