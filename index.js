@@ -34,6 +34,7 @@ import runner from './src/es6/assync-await/runner';
 import promise from './src/es6/promises/promise';
 import async from './src/es6/assync-await/async';
 import promiseSerialParallel from './src/es6/assync-await/parallel-serial-execution';
+import { Milosz, Person } from './src/es6/classes/class';
 
 // sum1or2arguments();
 // fucntionCurrying();
@@ -68,4 +69,6 @@ import promiseSerialParallel from './src/es6/assync-await/parallel-serial-execut
 // prototypeChain();
 // runner();
 // async();
-promiseSerialParallel();
+// promiseSerialParallel();
+console.log(Milosz.name, Milosz.surname, 'Class');
+console.log(Person.introducePerson());
